@@ -1,9 +1,11 @@
-# Visual Circle Instrument 
+# Visual Circles Instrument 
 <br/>
 
 ## Instructions
 
-Open the file 'index.html' using any browser (chrome, safari etc)
+Open the file 'index.html' using any browser (chrome, safari etc) 
+
+Make it full screen, ideally on a telly
 
 Press the letter keys on your keyboard to light it up
 
@@ -11,7 +13,7 @@ Shift + letter to make it stay on screen until pressed again
   
 <br/>
 
-### Available Letters
+### Functional Letters
 ```python
    e r t y u i
  s d f g h j k l
