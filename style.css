@@ -21,38 +21,38 @@ div:not(.light-up){
 
 
 .circle-d{
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 20vw;
     top: 30%;
     left: 30%;
 }
 .circle-f{
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 20vw;
     top: 70%;
     left: 30%;
 }
 .circle-g{
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
     top: 50%;
     left: 50%;
 }
 .circle-h{
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
     top: 50%;
     left: 50%;
 }
 .circle-j{
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 20vw;
     top: 30%;
     left: 70%;
 }
 .circle-k{
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 20vw;
     top: 70%;
     left: 70%;
 }
