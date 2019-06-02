@@ -1,4 +1,7 @@
 # Visual Circles Instrument 
+
+### A simple keyboard controled visualizer that can be played to music
+
 <br/>
 
 ## Instructions
