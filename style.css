@@ -1,0 +1,64 @@
+body{
+    background-color: #000;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+div{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 100ms;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+div:not(.light-up){
+    transition: background-color 600ms;
+}
+
+
+.circle-d{
+    width: 300px;
+    height: 300px;
+    top: 30%;
+    left: 30%;
+}
+.circle-f{
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 30%;
+}
+.circle-g{
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+}
+.circle-h{
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+}
+.circle-j{
+    width: 300px;
+    height: 300px;
+    top: 30%;
+    left: 70%;
+}
+.circle-k{
+    width: 300px;
+    height: 300px;
+    top: 70%;
+    left: 70%;
+}
+
+
+
+.light-up{
+    background-color: white;
+}
