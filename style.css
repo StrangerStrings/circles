@@ -3,6 +3,7 @@ body{
     position: relative;
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 *{
     margin: 0;
@@ -11,25 +12,46 @@ body{
 div{
     position: absolute;
     background-color: rgba(255, 255, 255, 0);
-    transition: background-color 100ms;
-    transform: translate(-50%, -50%);
     border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: background-color 100ms;
 }
 div:not(.light-up){
     transition: background-color 600ms;
 }
 
 
-.circle-d{
+div.quick-flash{
+    transition: background-color 50ms;
+}
+div.quick-flash:not(.light-up){
+    transition: background-color 300ms;
+}
+
+
+
+.circle-r{
     width: 20vw;
     height: 20vw;
-    top: 30%;
+    top: 27%;
     left: 30%;
 }
-.circle-f{
+.circle-c{
     width: 20vw;
     height: 20vw;
-    top: 70%;
+    top: 73%;
+    left: 30%;
+}
+.circle-e{
+    width: 10vw;
+    height: 10vw;
+    top: 27%;
+    left: 30%;
+}
+.circle-x{
+    width: 10vw;
+    height: 10vw;
+    top: 73%;
     left: 30%;
 }
 .circle-g{
@@ -37,28 +59,108 @@ div:not(.light-up){
     height: 30vw;
     top: 50%;
     left: 50%;
+
 }
 .circle-h{
-    width: 15vw;
-    height: 15vw;
+    width: 30vw;
+    height: 30vw;
     top: 50%;
     left: 50%;
+
 }
-.circle-j{
+.circle-t{
+    width: 18vw;
+    height: 18vw;
+    top: 35%;
+    left: 50%;
+}
+.circle-v{
+    width: 18vw;
+    height: 18vw;
+    top: 65%;
+    left: 50%;
+}
+.circle-y{
+    width: 25vw;
+    height: 25vw;
+    top: 0%;
+    left: 50%;
+}
+.circle-b{
+    width: 25vw;
+    height: 25vw;
+    top: 100%;
+    left: 50%;
+}
+.circle-u{
     width: 20vw;
     height: 20vw;
-    top: 30%;
+    top: 27%;
     left: 70%;
 }
-.circle-k{
+.circle-n{
     width: 20vw;
     height: 20vw;
-    top: 70%;
+    top: 73%;
+    left: 70%;
+}
+.circle-i{
+    width: 10vw;
+    height: 10vw;
+    top: 27%;
+    left: 70%;
+}
+.circle-m{
+    width: 10vw;
+    height: 10vw;
+    top: 73%;
     left: 70%;
 }
 
+/* dots */
+.circle-f{
+    width: 12vw;
+    height: 12vw;
+    top: 50%;
+    left: 27%;
+}
+.circle-d{
+    width: 8vw;
+    height: 8vw;
+    top: 50%;
+    left: 14%;
+}
+.circle-s{
+    width: 4vw;
+    height: 4vw;
+    top: 50%;
+    left: 5%;
+}
+.circle-j{
+    width: 12vw;
+    height: 12vw;
+    top: 50%;
+    left: 73%;
+}
+.circle-k{
+    width: 8vw;
+    height: 8vw;
+    top: 50%;
+    left: 86%;
+}
+.circle-l{
+    width: 4vw;
+    height: 4vw;
+    top: 50%;
+    left: 95%;
+}
 
 
 .light-up{
     background-color: white;
+}
+
+
+.dots{
+    background-color: black;
 }
