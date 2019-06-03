@@ -164,6 +164,39 @@ div.slow-flash:not(.light-up){
     left: 95%;
 }
 
+.circle-q{
+    background-color: transparent;
+    border: solid 10vw white;
+    width: 90vw;
+    height: 90vw;
+    top: 50%;
+    left: 50%;
+}
+.circle-w{
+    background-color: transparent;
+    border: solid 11vw white;
+    width: 64vw;
+    height: 64vw;
+    top: 50%;
+    left: 50%;
+}
+.circle-o{
+    background-color: transparent;
+    border: solid 9vw white;
+    width: 42vw;
+    height: 42vw;
+    top: 50%;
+    left: 50%;
+}
+.circle-p{
+    background-color: transparent;
+    border: solid 4vw white;
+    width: 32vw;
+    height: 32vw;
+    top: 50%;
+    left: 50%;
+}
+
 
 .light-up{
     opacity: 1;

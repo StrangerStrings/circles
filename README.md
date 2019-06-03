@@ -22,7 +22,7 @@ Space bar for random circle, hold ctrl for larger randoms
 
 ### Functional Letters
 ```python
-   e r t y u i
- s d f g h j k l
-   x c v b n m  
+q w e r t y u i o p
+  s d f g h j k l
+  x c v b n m  
 ```
