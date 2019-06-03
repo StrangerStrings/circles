@@ -6,7 +6,9 @@
 
 ## Instructions
 
-Open the file 'index.html' using any browser (chrome, safari etc) 
+'Clone or download' -> 'Download zip' -> Open folder
+
+Find 'index.html' and 'open with..' any browser (chrome, safari etc) 
 
 Make it full screen, ideally on a telly
 
