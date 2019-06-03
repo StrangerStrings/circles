@@ -24,7 +24,7 @@ div:not(.light-up){
 
 
 div.quick-flash{
-    transition: opacity 100ms;
+    transition: opacity 50ms;
 }
 div.quick-flash:not(.light-up){
     transition: opacity 300ms;
