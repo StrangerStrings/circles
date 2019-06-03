@@ -1,8 +1,7 @@
 
+let spaceCount = 1
 
 document.addEventListener('keydown', kiPres)
-
-
 
 function kiPres(e) {
 
@@ -25,14 +24,10 @@ function kiPres(e) {
     }
 
     if (e.key == ' '){
-        var spaceDiv = document.getElementById('shape-space')
+        var spaceDiv = document.getElementById('shape-space-'+spaceCount)
 
         let dimensions = 2 + Math.random() * 13
-        if( e.ctrlKey){
-            console.log(dimensions)
-            dimensions *= 2
-            console.log(dimensions)
-        }
+        if( e.ctrlKey) dimensions *= 2
         spaceDiv.style.width = dimensions + 'vw'
         spaceDiv.style.height = dimensions + 'vw'
         spaceDiv.style.top = (Math.random() * 80) + 10 + '%'
@@ -52,6 +47,8 @@ function kiOff(e) {
     } catch{ }
 
     if (e.key == ' '){
-        document.getElementById('shape-space').classList.remove('light-up')
+        document.getElementById('shape-space-'+spaceCount).classList.remove('light-up')
+        spaceCount ++
+        if (spaceCount == 9) spaceCount = 1
     }
 }

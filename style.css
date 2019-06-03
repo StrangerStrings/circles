@@ -12,20 +12,29 @@ body{
 div{
     position: absolute;
     background-color: rgba(255, 255, 255, 0);
+    background-color: white;
+    opacity: 0;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    transition: background-color 100ms;
+    transition: opacity 100ms;
 }
 div:not(.light-up){
-    transition: background-color 600ms;
+    transition: opacity 600ms;
 }
 
 
 div.quick-flash{
-    transition: background-color 50ms;
+    transition: opacity 100ms;
 }
 div.quick-flash:not(.light-up){
-    transition: background-color 300ms;
+    transition: opacity 300ms;
+}
+
+div.slow-flash{
+    transition: opacity 100ms;
+}
+div.slow-flash:not(.light-up){
+    transition: opacity 1000ms;
 }
 
 
@@ -155,16 +164,7 @@ div.quick-flash:not(.light-up){
     left: 95%;
 }
 
-.circle-space{
-    
-}
-
 
 .light-up{
-    background-color: white;
-}
-
-
-.dots{
-    background-color: black;
+    opacity: 1;
 }

@@ -15,6 +15,8 @@ Make it full screen, ideally on a telly
 Press the letter keys on your keyboard to light it up
 
 Shift + letter to make it stay on screen until pressed again
+
+Space bar for random circle, hold ctrl for larger randoms
   
 <br/>
 
