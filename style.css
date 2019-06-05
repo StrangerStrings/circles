@@ -39,87 +39,87 @@ div.slow-flash:not(.light-up){
 
 
 
-.circle-r{
+.r{
     width: 20vw;
     height: 20vw;
     top: 27%;
     left: 30%;
 }
-.circle-c{
+.c{
     width: 20vw;
     height: 20vw;
     top: 73%;
     left: 30%;
 }
-.circle-e{
+.e{
     width: 10vw;
     height: 10vw;
     top: 27%;
     left: 30%;
 }
-.circle-x{
+.x{
     width: 10vw;
     height: 10vw;
     top: 73%;
     left: 30%;
 }
-.circle-g{
+.g{
     width: 30vw;
     height: 30vw;
     top: 50%;
     left: 50%;
 
 }
-.circle-h{
+.h{
     width: 30vw;
     height: 30vw;
     top: 50%;
     left: 50%;
 
 }
-.circle-t{
+.t{
     width: 18vw;
     height: 18vw;
     top: 35%;
     left: 50%;
 }
-.circle-v{
+.v{
     width: 18vw;
     height: 18vw;
     top: 65%;
     left: 50%;
 }
-.circle-y{
+.y{
     width: 25vw;
     height: 25vw;
     top: 0%;
     left: 50%;
 }
-.circle-b{
+.b{
     width: 25vw;
     height: 25vw;
     top: 100%;
     left: 50%;
 }
-.circle-u{
+.u{
     width: 20vw;
     height: 20vw;
     top: 27%;
     left: 70%;
 }
-.circle-n{
+.n{
     width: 20vw;
     height: 20vw;
     top: 73%;
     left: 70%;
 }
-.circle-i{
+.i{
     width: 10vw;
     height: 10vw;
     top: 27%;
     left: 70%;
 }
-.circle-m{
+.m{
     width: 10vw;
     height: 10vw;
     top: 73%;
@@ -127,69 +127,69 @@ div.slow-flash:not(.light-up){
 }
 
 /* dots */
-.circle-f{
+.f{
     width: 12vw;
     height: 12vw;
     top: 50%;
     left: 27%;
 }
-.circle-d{
+.d{
     width: 8vw;
     height: 8vw;
     top: 50%;
     left: 14%;
 }
-.circle-s{
+.s{
     width: 4vw;
     height: 4vw;
     top: 50%;
     left: 5%;
 }
-.circle-j{
+.j{
     width: 12vw;
     height: 12vw;
     top: 50%;
     left: 73%;
 }
-.circle-k{
+.k{
     width: 8vw;
     height: 8vw;
     top: 50%;
     left: 86%;
 }
-.circle-l{
+.l{
     width: 4vw;
     height: 4vw;
     top: 50%;
     left: 95%;
 }
 
-.circle-q{
-    background-color: transparent;
+.q{
+    background-color: transparent !important;
     border: solid 10vw white;
     width: 90vw;
     height: 90vw;
     top: 50%;
     left: 50%;
 }
-.circle-w{
-    background-color: transparent;
+.w{
+    background-color: transparent !important;
     border: solid 11vw white;
     width: 64vw;
     height: 64vw;
     top: 50%;
     left: 50%;
 }
-.circle-o{
-    background-color: transparent;
+.o{
+    background-color: transparent !important;
     border: solid 9vw white;
     width: 42vw;
     height: 42vw;
     top: 50%;
     left: 50%;
 }
-.circle-p{
-    background-color: transparent;
+.p{
+    background-color: transparent !important;
     border: solid 4vw white;
     width: 32vw;
     height: 32vw;

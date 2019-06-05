@@ -6,28 +6,7 @@ and only change the styles in the if statement
 Will have to do some kind of minus thing for shifted letter codes
 
 
-maybe if spacebar then timeout before class comes off, also create..
-i can do this, i'll just have a global variable that
-is controlling the naming of the new div created by the space bar.
-(because spacebar can't be pressed again before it's let off so the timing will work.)
-->
-space bar creates new div when pressed 
-it's named (id) using a number, a global variable 
-given random properties like before
-when keyup, it is found with spaceCount
-and the light-up class removed, but not the div
-spaceCount is incremented after this..
-- -
-Actually.. I don't want 3000 divs knocking about after a 20 minute jam, i'm gonna have to solve that.
-I'm just gonna have to have 5-10 divs kncoking around and find them using the global variable,
-and all the magic happens in the incrementor where if it's 10 it's 0 again.
 
-
-
-
-Maybe have number keys change the colors
-
-If any sh
 
 
 
