@@ -9,6 +9,8 @@ body{
     margin: 0;
     padding:0;
 }
+
+
 div{
     position: absolute;
     background-color: rgba(255, 255, 255, 0);
@@ -35,6 +37,12 @@ div.slow-flash{
 }
 div.slow-flash:not(.light-up){
     transition: opacity 1000ms;
+}
+
+
+
+.light-up{
+    opacity: 1;
 }
 
 
@@ -164,6 +172,7 @@ div.slow-flash:not(.light-up){
     left: 95%;
 }
 
+/* rings */
 .q{
     background-color: transparent !important;
     border: solid 10vw white;
@@ -197,7 +206,3 @@ div.slow-flash:not(.light-up){
     left: 50%;
 }
 
-
-.light-up{
-    opacity: 1;
-}

@@ -31,7 +31,7 @@ q w e r t y u i o p
 
 ## Colors
 
-Number keys control the colors
+Number keys 0-9 control the colors
 
 ctrl + number turns every shape to that color
 
