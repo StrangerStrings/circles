@@ -1,15 +1,11 @@
 body{
     background-color: #000;
-    position: relative;
-    height: 100vh;
-    width: 100vw;
     overflow: hidden;
 }
 *{
     margin: 0;
     padding:0;
 }
-
 
 div{
     position: absolute;
@@ -18,32 +14,28 @@ div{
     opacity: 0;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    transition: opacity 100ms;
-}
-div:not(.light-up){
     transition: opacity 600ms;
 }
-
-
-div.quick-flash{
-    transition: opacity 50ms;
-}
-div.quick-flash:not(.light-up){
-    transition: opacity 300ms;
-}
-
-div.slow-flash{
+.lit{
+    opacity: 1;
     transition: opacity 100ms;
 }
-div.slow-flash:not(.light-up){
+
+
+.quick-flash{
+    transition: opacity 300ms;
+}
+.quick-flash.lit{
+    transition: opacity 50ms;
+}
+
+.slow-flash{
     transition: opacity 1000ms;
 }
-
-
-
-.light-up{
-    opacity: 1;
+.slow-flash.lit{
+    transition: opacity 100ms;
 }
+
 
 
 
